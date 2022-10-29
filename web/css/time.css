@@ -1,0 +1,114 @@
+.c1 {
+    height: 540px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+  }
+  .c2 {
+    height: 370px;
+    background: rgba(255, 255, 255, 0.788);
+  }
+  .lin {
+    max-width: 20px;
+    transform: scale(1);
+    max-height: 20px;
+    border-radius: 50%;
+    background: #f00 !important;
+    padding: 0;
+  }
+  .jj {
+    width: 100px;
+    position: absolute;
+    left: 28%;
+    display: flex;
+    justify-content: space-around;
+    top: 537px;
+  }
+  .a-b::after {
+    content: "";
+    display: flex;
+    width: 300px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.788);
+    position: absolute;
+    top: 25%;
+    left: -300px;
+    transform: scaleY(1.1);
+  }
+  .a-b::before {
+    content: "";
+    display: flex;
+    width: 300px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.788);
+    position: absolute;
+    top: 25%;
+    right: -300px;
+    transform: scaleY(1.1);
+  }
+  .lr {
+    border-radius: 50%;
+    background: rgb(169, 169, 169);
+    opacity: 1 !important;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    transform: scale(1.8);
+  }
+  .l {
+    transform: translateX(-65px) scale(1.8);
+  }
+
+  .r {
+    transform: translateX(65px) scale(1.8);
+  }
+  .odam {
+    width: 150px;
+    position: absolute;
+    left: 41%;
+    top: -70px;
+    box-shadow: 0 0 0 10px #b0b3b8;
+    border-radius: 50%;
+  }
+  .qt {
+    position: absolute;
+    top: -38px;
+    left: 31px;
+  }
+  .qb {
+    position: absolute;
+    bottom: -38px;
+    right: 31px;
+  }
+  @media (max-width: 1300px) {
+    .a-b::before {
+      content: "";
+      display: none;
+    }
+    .a-b::after {
+      content: "";
+      display: none;
+    }
+  }
+  @media (max-width: 1000px) {
+    .qt {
+      display: none;
+    }
+    .qb {
+      display: none;
+    }
+    .odam {
+      width: 150px;
+      position: absolute;
+      left: 35%;
+      top: -70px;
+      box-shadow: 0 0 0 10px #b0b3b8;
+      border-radius: 50%;
+    }
+    .dv {
+      display: none;
+    }
+  }
+.b{
+    overflow: hidden;
+}
